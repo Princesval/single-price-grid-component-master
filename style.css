@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(229, 239, 245);
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+div.principal {
+    max-width: 800px;
+    height: 250px;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0px 0px;
+    background-color: white;
+}
+
+.principal h1{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: hsl(179, 62%, 43%);
+}
+
+.principal h2 {
+    margin-left: 40px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: hsl(71, 73%, 54%);
+}
+
+.principal p {
+    margin-left: 40px;
+    margin-top: 5px;
+    color: rgb(152, 166, 189);
+    font-size: 1.2em;
+}
+
+.menu-baixo {
+    display: flex;
+}
+div.baixo {
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    gap: 0;
+}
+
+#esquerda h2 {
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+}
+
+#esquerda p{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+
+strong {
+    font-size: 2.5em;
+}
+
+#esquerda nav {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(192, 223, 52);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#esquerda {
+    border-bottom-left-radius: 10px;
+    background-color: rgb(42, 178, 175);
+}
+
+#direita {
+    border-bottom-right-radius: 10px;
+    background-color: rgb(73, 190, 189);
+}
+
+#direita h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#direita p {
+    margin-left: 40px;
+    margin-right: 100px;
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    margin-top: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer  a {
+    font-size: 1.2em;
+    color: black;
+    font-weight: bolder;
+}
+
+#esquerda nav:hover {
+    background-color: rgb(159, 186, 49);
+    transition: 0.5s;
+}
+
